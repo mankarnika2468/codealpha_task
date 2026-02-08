@@ -1,0 +1,15 @@
+print("chat box")
+while True:
+     user = input("you: ").lower()
+     if user == "hi" :
+       print("Hello")
+     elif user == "how are you" :
+        print("I am fine")
+        print("Thanks")
+     elif user == "bye" :
+        print("GoodBye")
+        break
+     else:
+        print("I can't understand , Please try again")
+
+
