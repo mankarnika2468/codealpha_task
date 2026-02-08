@@ -1,0 +1,36 @@
+
+#include<stdio.h>
+int main(){
+int var1,var2,result,choice;
+printf("enter your choice(+,-,*,\)");
+scanf("%d",&choice);
+printf("enter the variables");
+scanf("%d%d",&var1,&var2);
+switch(choice){
+case 1:
+result=var1+var2;
+printf("addition::%d",result);
+break;
+case 2:
+result=var1-var2;
+printf("substraction::%d",result);
+break;
+case 3:
+result=var1 *var2;
+printf("multiplication::%d",result);
+break;
+case 4:
+result=var1/var2;
+printf("division::%d",result);
+break;
+default:
+printf("Invalid choice*-*please try again*-*");
+break;
+}
+return 0;
+}
+
+
+
+
+
